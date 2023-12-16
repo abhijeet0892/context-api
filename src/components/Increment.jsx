@@ -20,7 +20,9 @@ const Increment = () => {
         >
           Decrement
         </button>
-        <h1 className="outline-none text-center w-full py-1 px-3">{count}</h1>
+        <h1 className="outline-none text-center text-white w-full py-1 px-3">
+          {count}
+        </h1>
         <button
           onClick={handleClickIncr}
           className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0"

@@ -38,7 +38,7 @@ const PasswordGen = () => {
         <input
           type="text"
           value={password}
-          className="outline-none w-full py-1 px-3"
+          className="outline-none text-black w-full py-1 px-3"
           placeholder="Password"
           readOnly
           ref={passwordRef}
